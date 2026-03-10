@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamyon – Privacy Policy</title>
+  <title>Hamyon AI – Privacy Policy</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -133,6 +133,19 @@
     .dot-green { background: #4CAF50; }
     .dot-red   { background: #F44336; }
 
+    .lang-divider {
+      margin: 60px 0 40px;
+      border: none;
+      border-top: 2px solid #2A2A3E;
+    }
+
+    .lang-label {
+      text-align: center;
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 32px;
+    }
+
     footer {
       margin-top: 60px;
       text-align: center;
@@ -153,35 +166,37 @@
       <circle cx="12" cy="13.5" r="2.5" fill="#6C63FF"/>
     </svg>
   </div>
-  <h1>Hamyon</h1>
+  <h1>Hamyon AI</h1>
   <div class="sub">Privacy Policy</div>
 </header>
 
+<!-- ═══════════════════════════  ENGLISH  ═══════════════════════════ -->
 <div class="wrap">
 
-  <div class="updated">Last updated: February 26, 2026</div>
+  <div class="updated">Last updated: March 10, 2026</div>
 
   <p>
     This Privacy Policy explains how <strong>Shohrux Umarov</strong>, operating under the name
     <strong>Level Infinity</strong>, collects, uses, and protects information when you use the
-    <strong>Hamyon</strong> mobile application ("the App").
+    <strong>Hamyon AI</strong> mobile application ("the App").
   </p>
 
   <h2>1. Information We Collect</h2>
 
-  <p>Hamyon collects only what is strictly necessary to provide expense tracking:</p>
+  <p>Hamyon AI collects only what is strictly necessary to provide expense tracking:</p>
 
   <div class="card">
     <ul>
-      <li><strong>Expense records</strong> — amount, category, date, and optional comment that you enter manually.</li>
+      <li><strong>Expense records</strong> — amount, category, date, and optional comment that you enter manually or via voice input.</li>
       <li><strong>Anonymous device ID (UUID)</strong> — a randomly generated identifier created on first launch. It is not linked to your name, email, or any personal identity.</li>
       <li><strong>Daily budget limit</strong> — stored only on your device.</li>
       <li><strong>Language preference</strong> — stored only on your device.</li>
+      <li><strong>Telegram account info (optional)</strong> — if you choose to link your Telegram account for data protection, we store your Telegram user ID, username, and display name. This is entirely voluntary and can be skipped.</li>
     </ul>
   </div>
 
   <div class="badge-row">
-    <span class="badge"><span class="dot dot-red"></span> No name or email collected</span>
+    <span class="badge"><span class="dot dot-red"></span> No email collected</span>
     <span class="badge"><span class="dot dot-red"></span> No location data</span>
     <span class="badge"><span class="dot dot-red"></span> No contacts or camera</span>
     <span class="badge"><span class="dot dot-red"></span> No advertising ID</span>
@@ -193,31 +208,46 @@
     <li>To save and display your expense history.</li>
     <li>To sync your expenses between sessions using your anonymous UUID.</li>
     <li>To calculate and show daily spending statistics and budget status.</li>
+    <li>To link your data across devices if you voluntarily connect your Telegram account.</li>
   </ul>
 
   <p>We do not use your data for advertising, analytics, profiling, or any purpose beyond the App's core functionality.</p>
 
-  <h2>3. Data Storage</h2>
+  <h2>3. Optional Account Linking (Telegram)</h2>
+
+  <p>
+    After using the App regularly, you may be prompted to optionally link your Telegram account.
+    This is designed to protect your expense data if you change or reset your phone.
+  </p>
+  <div class="card">
+    <ul>
+      <li>Linking is <strong>completely optional</strong> — you can use the App indefinitely without it.</li>
+      <li>We use Telegram's official Bot API only for identity verification. We do not access your messages, contacts, or any other Telegram data.</li>
+      <li>The only information stored is your Telegram user ID, username, and display name.</li>
+    </ul>
+  </div>
+
+  <h2>4. Data Storage</h2>
 
   <div class="card">
     <p><strong>On your device</strong><br>
-    Expenses and settings are stored locally using Hive encrypted database.</p>
+    Expenses and settings are stored locally using Hive database.</p>
     <p style="margin-top:12px"><strong>On our server</strong><br>
     Expense data is synced to <code>hamyon.nexon.uz</code> — a server maintained solely by the developer, located in Uzbekistan. No other parties have access to this server.</p>
   </div>
 
-  <h2>4. Third-Party Services</h2>
+  <h2>5. Third-Party Services</h2>
 
   <div class="badge-row">
     <span class="badge"><span class="dot dot-green"></span> No analytics (Google Analytics, Firebase, etc.)</span>
     <span class="badge"><span class="dot dot-green"></span> No advertising SDKs</span>
-    <span class="badge"><span class="dot dot-green"></span> No social login</span>
     <span class="badge"><span class="dot dot-green"></span> No crash reporting services</span>
+    <span class="badge"><span class="dot dot-green"></span> Telegram Bot API — only for optional account linking</span>
   </div>
 
   <p>No data is shared with or sold to any third party.</p>
 
-  <h2>5. Data Retention &amp; Deletion</h2>
+  <h2>6. Data Retention &amp; Deletion</h2>
 
   <p>Your data is retained as long as you use the App.</p>
   <ul>
@@ -225,15 +255,15 @@
     <li><strong>Server data:</strong> Contact us using the email below to request deletion. We will permanently remove all data associated with your UUID within 7 business days.</li>
   </ul>
 
-  <h2>6. Children's Privacy</h2>
+  <h2>7. Children's Privacy</h2>
 
   <p>
-    Hamyon is not directed to children under the age of 13. We do not knowingly collect personal
+    Hamyon AI is not directed to children under the age of 13. We do not knowingly collect personal
     information from children. If you believe a child has provided us with information, please
     contact us and we will promptly delete it.
   </p>
 
-  <h2>7. Changes to This Policy</h2>
+  <h2>8. Changes to This Policy</h2>
 
   <p>
     We may update this Privacy Policy from time to time. Any changes will be posted on this page
@@ -241,11 +271,240 @@
     constitutes your acceptance of the updated policy.
   </p>
 
-  <h2>8. Contact Us</h2>
+  <h2>9. Contact Us</h2>
 
   <div class="card">
     <p><strong>Developer:</strong> Shohrux Umarov<br>
     <strong>Publisher:</strong> Level Infinity<br>
+    <strong>Email:</strong> <a href="mailto:shox6963@gmail.com">shox6963@gmail.com</a></p>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════  O'ZBEK  ═══════════════════════════ -->
+<hr class="lang-divider">
+<div class="wrap">
+  <div class="lang-label">🇺🇿 O'zbek tili</div>
+
+  <header style="border-radius:14px; margin-bottom:32px;">
+    <h1 style="font-size:20px;">Hamyon AI</h1>
+    <div class="sub">Maxfiylik Siyosati</div>
+  </header>
+
+  <div class="updated">Oxirgi yangilanish: 10-mart, 2026</div>
+
+  <p>
+    Ushbu Maxfiylik Siyosati <strong>Shohrux Umarov</strong> (savdo nomi: <strong>Level Infinity</strong>) tomonidan ishlab chiqilgan
+    <strong>Hamyon AI</strong> mobil ilovasidan foydalanish jarayonida ma'lumotlarni qanday yig'ish, ishlatish va himoya qilishni tushuntiradi.
+  </p>
+
+  <h2>1. Yig'iladigan ma'lumotlar</h2>
+
+  <p>Hamyon AI faqat xarajatlarni kuzatish uchun zarur bo'lgan minimal ma'lumotlarni yig'adi:</p>
+
+  <div class="card">
+    <ul>
+      <li><strong>Xarajat yozuvlari</strong> — siz qo'lda yoki ovoz orqali kiritgan miqdor, kategoriya, sana va ixtiyoriy izoh.</li>
+      <li><strong>Anonim qurilma identifikatori (UUID)</strong> — birinchi ishga tushirishda yaratilgan tasodifiy identifikator. U sizning ismingiz, emailingiz yoki shaxsiyatingiz bilan bog'liq emas.</li>
+      <li><strong>Kunlik byudjet limiti</strong> — faqat qurilmangizda saqlanadi.</li>
+      <li><strong>Til sozlamasi</strong> — faqat qurilmangizda saqlanadi.</li>
+      <li><strong>Telegram hisob ma'lumotlari (ixtiyoriy)</strong> — agar ma'lumotlaringizni himoya qilish uchun Telegram hisobingizni ulashni tanlasangiz, Telegram foydalanuvchi ID, username va ism saqlanadi. Bu butunlay ixtiyoriy.</li>
+    </ul>
+  </div>
+
+  <div class="badge-row">
+    <span class="badge"><span class="dot dot-red"></span> Email yig'ilmaydi</span>
+    <span class="badge"><span class="dot dot-red"></span> Joylashuv ma'lumotlari yo'q</span>
+    <span class="badge"><span class="dot dot-red"></span> Kontaktlar yoki kamera yo'q</span>
+    <span class="badge"><span class="dot dot-red"></span> Reklama identifikatori yo'q</span>
+  </div>
+
+  <h2>2. Ma'lumotlardan foydalanish maqsadi</h2>
+
+  <ul>
+    <li>Xarajat tarixingizni saqlash va ko'rsatish uchun.</li>
+    <li>Anonim UUID orqali sessiyalar o'rtasida xarajatlaringizni sinxronlashtirish uchun.</li>
+    <li>Kunlik xarajat statistikasi va byudjet holatini hisoblash va ko'rsatish uchun.</li>
+    <li>Agar ixtiyoriy ravishda Telegram hisobingizni ulasangiz, ma'lumotlaringizni qurilmalar o'rtasida bog'lash uchun.</li>
+  </ul>
+
+  <p>Ma'lumotlaringiz reklama, tahlil, profillashtirish yoki ilovaning asosiy funksiyasidan tashqari hech qanday maqsadda ishlatilmaydi.</p>
+
+  <h2>3. Ixtiyoriy hisob ulash (Telegram)</h2>
+
+  <p>
+    Ilovadan muntazam foydalangandan so'ng, Telegram hisobingizni ixtiyoriy ravishda ulash taklif qilinishi mumkin.
+    Bu telefonni almashtirganingizda yoki tiklashda xarajat ma'lumotlaringizni himoya qilish uchun mo'ljallangan.
+  </p>
+  <div class="card">
+    <ul>
+      <li>Ulash <strong>butunlay ixtiyoriy</strong> — ilovadan ulashsiz ham cheksiz foydalanish mumkin.</li>
+      <li>Faqat shaxsini tasdiqlash uchun Telegram rasmiy Bot API'dan foydalaniladi. Xabarlaringiz, kontaktlaringiz yoki boshqa Telegram ma'lumotlaringizga kirilmaydi.</li>
+      <li>Faqat Telegram foydalanuvchi ID, username va ism saqlanadi.</li>
+    </ul>
+  </div>
+
+  <h2>4. Ma'lumotlarni saqlash</h2>
+
+  <div class="card">
+    <p><strong>Qurilmangizda</strong><br>
+    Xarajatlar va sozlamalar Hive bazasida lokal saqlanadi.</p>
+    <p style="margin-top:12px"><strong>Serverda</strong><br>
+    Xarajat ma'lumotlari <code>hamyon.nexon.uz</code> serveriga sinxronlanadi — bu server faqat dasturchi tomonidan boshqariladi va O'zbekistonda joylashgan. Boshqa hech bir tomon bu serverga kirish huquqiga ega emas.</p>
+  </div>
+
+  <h2>5. Uchinchi tomon xizmatlari</h2>
+
+  <div class="badge-row">
+    <span class="badge"><span class="dot dot-green"></span> Tahlil tizimlari yo'q</span>
+    <span class="badge"><span class="dot dot-green"></span> Reklama SDK'lari yo'q</span>
+    <span class="badge"><span class="dot dot-green"></span> Xato hisobot xizmatlari yo'q</span>
+    <span class="badge"><span class="dot dot-green"></span> Telegram Bot API — faqat ixtiyoriy hisob ulash uchun</span>
+  </div>
+
+  <p>Ma'lumotlar hech qanday uchinchi tomonga berilmaydi yoki sotilmaydi.</p>
+
+  <h2>6. Ma'lumotlarni saqlash muddati va o'chirish</h2>
+
+  <ul>
+    <li><strong>Lokal ma'lumotlar:</strong> Ilovani o'chirib tashlash barcha lokal ma'lumotlarni butunlay yo'q qiladi.</li>
+    <li><strong>Server ma'lumotlari:</strong> O'chirish uchun quyidagi email orqali murojaat qiling. UUID'ingiz bilan bog'liq barcha ma'lumotlar 7 ish kuni ichida o'chiriladi.</li>
+  </ul>
+
+  <h2>7. Bolalar maxfiyligi</h2>
+
+  <p>
+    Hamyon AI 13 yoshdan kichik bolalarga mo'ljallanmagan. Biz bilgan holda bolalardan shaxsiy ma'lumot yig'maymiz.
+    Agar bola ma'lumot bergan deb hisoblasangiz, biz bilan bog'laning va uni darhol o'chiramiz.
+  </p>
+
+  <h2>8. Siyosatga o'zgartirishlar</h2>
+
+  <p>
+    Ushbu Maxfiylik Siyosati vaqti-vaqti bilan yangilanishi mumkin. Har qanday o'zgarishlar ushbu sahifada
+    yangilangan sana bilan e'lon qilinadi. O'zgarishlar e'lon qilingandan keyin ilovadan foydalanishni
+    davom ettirish yangilangan siyosatga roziligingizni bildiradi.
+  </p>
+
+  <h2>9. Biz bilan bog'laning</h2>
+
+  <div class="card">
+    <p><strong>Dasturchi:</strong> Shohrux Umarov<br>
+    <strong>Nashriyot:</strong> Level Infinity<br>
+    <strong>Email:</strong> <a href="mailto:shox6963@gmail.com">shox6963@gmail.com</a></p>
+  </div>
+
+</div>
+
+<!-- ═══════════════════════════  РУССКИЙ  ═══════════════════════════ -->
+<hr class="lang-divider">
+<div class="wrap">
+  <div class="lang-label">🇷🇺 Русский язык</div>
+
+  <header style="border-radius:14px; margin-bottom:32px;">
+    <h1 style="font-size:20px;">Hamyon AI</h1>
+    <div class="sub">Политика конфиденциальности</div>
+  </header>
+
+  <div class="updated">Последнее обновление: 10 марта 2026 г.</div>
+
+  <p>
+    Настоящая Политика конфиденциальности объясняет, как <strong>Шохрух Умаров</strong> (торговое название: <strong>Level Infinity</strong>)
+    собирает, использует и защищает информацию при использовании мобильного приложения <strong>Hamyon AI</strong>.
+  </p>
+
+  <h2>1. Собираемые данные</h2>
+
+  <p>Hamyon AI собирает только минимально необходимые данные для отслеживания расходов:</p>
+
+  <div class="card">
+    <ul>
+      <li><strong>Записи расходов</strong> — сумма, категория, дата и необязательный комментарий, введённые вручную или голосом.</li>
+      <li><strong>Анонимный идентификатор устройства (UUID)</strong> — случайный идентификатор, созданный при первом запуске. Не связан с вашим именем, email или личностью.</li>
+      <li><strong>Дневной лимит бюджета</strong> — хранится только на вашем устройстве.</li>
+      <li><strong>Языковые настройки</strong> — хранятся только на вашем устройстве.</li>
+      <li><strong>Данные Telegram-аккаунта (по желанию)</strong> — если вы решите привязать Telegram для защиты данных, сохраняется Telegram user ID, username и имя. Это полностью добровольно.</li>
+    </ul>
+  </div>
+
+  <div class="badge-row">
+    <span class="badge"><span class="dot dot-red"></span> Email не собирается</span>
+    <span class="badge"><span class="dot dot-red"></span> Геолокация не используется</span>
+    <span class="badge"><span class="dot dot-red"></span> Контакты и камера не используются</span>
+    <span class="badge"><span class="dot dot-red"></span> Рекламный идентификатор не используется</span>
+  </div>
+
+  <h2>2. Использование данных</h2>
+
+  <ul>
+    <li>Для сохранения и отображения истории расходов.</li>
+    <li>Для синхронизации расходов между сессиями с помощью анонимного UUID.</li>
+    <li>Для расчёта и отображения ежедневной статистики расходов и бюджета.</li>
+    <li>Для связи данных между устройствами при добровольной привязке Telegram-аккаунта.</li>
+  </ul>
+
+  <p>Ваши данные не используются для рекламы, аналитики, профилирования или в любых других целях, кроме основного функционала приложения.</p>
+
+  <h2>3. Дополнительная привязка аккаунта (Telegram)</h2>
+
+  <p>
+    После активного использования приложения вам может быть предложено добровольно привязать Telegram-аккаунт.
+    Это сделано для защиты данных о расходах при смене или сбросе телефона.
+  </p>
+  <div class="card">
+    <ul>
+      <li>Привязка <strong>полностью добровольна</strong> — приложением можно пользоваться бессрочно без неё.</li>
+      <li>Используется только официальный Telegram Bot API для подтверждения личности. Доступа к вашим сообщениям, контактам или другим данным Telegram нет.</li>
+      <li>Сохраняются только Telegram user ID, username и имя.</li>
+    </ul>
+  </div>
+
+  <h2>4. Хранение данных</h2>
+
+  <div class="card">
+    <p><strong>На вашем устройстве</strong><br>
+    Расходы и настройки хранятся локально в базе данных Hive.</p>
+    <p style="margin-top:12px"><strong>На нашем сервере</strong><br>
+    Данные о расходах синхронизируются с <code>hamyon.nexon.uz</code> — сервером, поддерживаемым исключительно разработчиком, расположенным в Узбекистане. Третьи стороны не имеют доступа к этому серверу.</p>
+  </div>
+
+  <h2>5. Сторонние сервисы</h2>
+
+  <div class="badge-row">
+    <span class="badge"><span class="dot dot-green"></span> Нет аналитики</span>
+    <span class="badge"><span class="dot dot-green"></span> Нет рекламных SDK</span>
+    <span class="badge"><span class="dot dot-green"></span> Нет сервисов отчётов об ошибках</span>
+    <span class="badge"><span class="dot dot-green"></span> Telegram Bot API — только для необязательной привязки</span>
+  </div>
+
+  <p>Данные не передаются и не продаются третьим лицам.</p>
+
+  <h2>6. Хранение и удаление данных</h2>
+
+  <ul>
+    <li><strong>Локальные данные:</strong> Удаление приложения навсегда уничтожает все локально хранящиеся данные.</li>
+    <li><strong>Данные на сервере:</strong> Напишите нам на email ниже для запроса удаления. Все данные, связанные с вашим UUID, будут удалены в течение 7 рабочих дней.</li>
+  </ul>
+
+  <h2>7. Конфиденциальность детей</h2>
+
+  <p>
+    Hamyon AI не предназначен для детей младше 13 лет. Мы сознательно не собираем личные данные детей.
+    Если вы считаете, что ребёнок предоставил нам информацию, свяжитесь с нами, и мы немедленно её удалим.
+  </p>
+
+  <h2>8. Изменения политики</h2>
+
+  <p>
+    Настоящая Политика конфиденциальности может периодически обновляться. Все изменения публикуются на этой странице
+    с обновлённой датой. Продолжение использования приложения после публикации изменений означает ваше согласие с обновлённой политикой.
+  </p>
+
+  <h2>9. Контакты</h2>
+
+  <div class="card">
+    <p><strong>Разработчик:</strong> Shohrux Umarov<br>
+    <strong>Издатель:</strong> Level Infinity<br>
     <strong>Email:</strong> <a href="mailto:shox6963@gmail.com">shox6963@gmail.com</a></p>
   </div>
 
